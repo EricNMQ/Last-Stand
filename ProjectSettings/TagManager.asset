@@ -16,8 +16,8 @@ TagManager:
   - Enemy
   - PlayerHitbox
   - EnemyHitbox
-  - 
-  - 
+  - "Groun\u0111etection"
+  - playerDetection
   - 
   - 
   - 

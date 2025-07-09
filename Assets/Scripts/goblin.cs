@@ -9,6 +9,9 @@ public class goblin : MonoBehaviour
     public float walkspeed = 3f;
     public float walkStopRate = 0.6f;
     public DetectionZone attackZone;
+    public DetectionZone cliffDetectionZone;
+    public DetectionZone playerDetectionZone;
+
 
     Rigidbody2D rb;
     TouchingDirections touchingDirections;
@@ -66,13 +69,59 @@ public class goblin : MonoBehaviour
         damageable = GetComponent<Damageable>();
     }
 
-    private void Update()
+    void Update()
     {
-        HasTarget = attackZone.DetectedColliders.Count > 0; 
+        
+        if (playerDetectionZone.DetectedColliders.Count > 0)
+        {
+            Collider2D targetCollider = playerDetectionZone.DetectedColliders[0];
+            GameObject targetObject = targetCollider.gameObject;
+            Damageable target = targetObject.GetComponent<Damageable>();
+
+            if (target != null && target.IsAlive)
+            {
+                float directionToPlayer = target.transform.position.x - transform.position.x;
+
+                if (directionToPlayer > 0 && WalkDirection == WalkableDirection.Left)
+                {
+                    FlipDirection();
+                }
+                else if (directionToPlayer < 0 && WalkDirection == WalkableDirection.Right)
+                {
+                    FlipDirection();
+                }
+            }
+        }
+
+        
+        if (attackZone.DetectedColliders.Count > 0)
+        {
+            Collider2D targetCollider = attackZone.DetectedColliders[0];
+            GameObject targetObject = targetCollider.gameObject;
+            Damageable target = targetObject.GetComponent<Damageable>();
+
+            if (target != null && target.IsAlive)
+            {
+                HasTarget = true;
+            }
+            else
+            {
+                HasTarget = false;
+                attackZone.DetectedColliders.RemoveAt(0);
+            }
+        }
+        else
+        {
+            HasTarget = false;
+        }
     }
+
+
+
+
     public void FixedUpdate()
     {
-        if (touchingDirections.IsGrounded && touchingDirections.IsOnWall)
+        if (touchingDirections.IsGrounded && touchingDirections.IsOnWall || cliffDetectionZone.DetectedColliders.Count == 9)
         {
             FlipDirection();
         }
@@ -105,5 +154,13 @@ public class goblin : MonoBehaviour
     {
         
         rb.velocity = new Vector2(knockback.x, rb.velocity.y * knockback.y);
+    }
+
+    public void OnCliffDetection()
+    {
+        if (touchingDirections.IsGrounded)
+        {
+            FlipDirection();
+        }
     }
 }

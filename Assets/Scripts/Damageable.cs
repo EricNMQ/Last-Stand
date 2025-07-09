@@ -8,6 +8,8 @@ public class Damageable : MonoBehaviour
     public UnityEvent<int, Vector2> damageableHit;
     Animator animator;
 
+    public HealthBar healthBar;
+
     [SerializeField]
     private int _maxHealth = 100;
     public int MaxHealth
@@ -35,10 +37,17 @@ public class Damageable : MonoBehaviour
         {
             _health = value;
 
+            if (healthBar != null)
+            {
+                healthBar.SetHealth(_health, _maxHealth);
+            }
+
+
             //if drop below 0 player will die
             if (_health <= 0)
             {
                 IsAlive = false;
+                DropLoot();
             }
         }
     }
@@ -49,7 +58,39 @@ public class Damageable : MonoBehaviour
     [SerializeField]
     private bool isInvincible = false;
 
-   
+    [SerializeField] private GameObject[] dropItems;
+    [SerializeField]
+    private float[] dropWeights = new float[] { 0.6f, 0.3f, 0.1f };
+
+    void DropLoot()
+    {
+        if (dropItems.Length == 0 || dropWeights.Length != dropItems.Length) return;
+
+        float dropChance = 0.5f; 
+        if (Random.value > dropChance) return;
+
+        
+        float totalWeight = 0f;
+        foreach (float w in dropWeights)
+            totalWeight += w;
+
+        float randomValue = Random.value * totalWeight;
+        float accumulated = 0f;
+
+        for (int i = 0; i < dropItems.Length; i++)
+        {
+            accumulated += dropWeights[i];
+            if (randomValue <= accumulated)
+            {
+                Instantiate(dropItems[i], transform.position, Quaternion.identity);
+                break;
+            }
+        }
+    }
+
+
+
+
 
 
     private float timeSinceHit = 0;
@@ -108,7 +149,7 @@ public class Damageable : MonoBehaviour
             animator.SetTrigger(AnimationStrings.hitTrigger);
             LockVelocity = true;
             damageableHit.Invoke(damage, knockback);
-
+            CharacterEvents.characterdamaged.Invoke(gameObject, damage);
             return true;
         }
         //unable to be hit
