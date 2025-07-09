@@ -1,0 +1,22 @@
+# Unity auto-generated files
+Library/
+Temp/
+Obj/
+Build/
+UserSettings/
+Logs/
+MemoryCaptures/
+
+# IDE files
+.vscode/
+*.csproj
+*.sln
+*.user
+
+# Large binaries
+*.dll
+*.dylib
+*.so
+*.exe
+*.apk
+*.aab
