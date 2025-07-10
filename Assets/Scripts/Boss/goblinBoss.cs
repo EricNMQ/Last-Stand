@@ -61,6 +61,18 @@ public class goblinboss : MonoBehaviour
         }
     }
 
+    public float cooldown
+    {
+        get
+        {
+            return animator.GetFloat(AnimationStrings.cooldown);
+        }
+        private set
+        {
+            animator.SetFloat(AnimationStrings.cooldown, Mathf.Max(value, 0f));
+        }
+    }
+
     public void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -71,7 +83,11 @@ public class goblinboss : MonoBehaviour
 
     void Update()
     {
-        
+        if (cooldown > 0)
+        {
+            cooldown -= Time.deltaTime;
+        }
+
         if (playerDetectionZone.DetectedColliders.Count > 0)
         {
             Collider2D targetCollider = playerDetectionZone.DetectedColliders[0];
@@ -164,6 +180,10 @@ public class goblinboss : MonoBehaviour
         }
     }
 
-    
+    public bool IsDead()
+    {
+        return !damageable.IsAlive;
+    }
+
 
 }

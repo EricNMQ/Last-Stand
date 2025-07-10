@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 
@@ -61,6 +62,7 @@ public class goblin : MonoBehaviour
         }
     }
 
+   
     public void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -71,6 +73,7 @@ public class goblin : MonoBehaviour
 
     void Update()
     {
+        
         
         if (playerDetectionZone.DetectedColliders.Count > 0)
         {

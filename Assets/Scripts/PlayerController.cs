@@ -1,6 +1,7 @@
-
+﻿
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -75,6 +76,10 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     Animator animator;
 
+
+    [SerializeField] private float attackCooldown = 3f;
+    private float currentCooldown;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -84,6 +89,22 @@ public class PlayerController : MonoBehaviour
         
     }
 
+    void Update()
+    {
+        // Đếm ngược cooldown
+        if (currentCooldown > 0f)
+        {
+            currentCooldown -= Time.deltaTime;
+            animator.SetFloat("cooldown", currentCooldown);
+        }
+
+        if (Input.GetButtonDown("Fire1") && currentCooldown <= 0f)
+        {
+            animator.SetTrigger("attack");
+            currentCooldown = attackCooldown;
+            animator.SetFloat("cooldown", attackCooldown); // reset animator param
+        }
+    }
     public bool IsAlive
     {
         get

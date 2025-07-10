@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -9,6 +9,7 @@ public class Damageable : MonoBehaviour
     Animator animator;
 
     public HealthBar healthBar;
+    public EnemyHealthBar enemyHealthBar;
 
     [SerializeField]
     private int _maxHealth = 100;
@@ -29,21 +30,24 @@ public class Damageable : MonoBehaviour
 
     public int Health
     {
-        get
-        {
-            return _health;
-        }
+        get => _health;
         set
         {
             _health = value;
 
+            // Cập nhật thanh máu cho Player nếu có
             if (healthBar != null)
             {
                 healthBar.SetHealth(_health, _maxHealth);
             }
 
+            // Cập nhật thanh máu cho Enemy nếu có
+            if (enemyHealthBar != null)
+            {
+                enemyHealthBar.UpdateHealth(_health, _maxHealth);
+            }
 
-            //if drop below 0 player will die
+            // Nếu máu <= 0 thì chết
             if (_health <= 0)
             {
                 IsAlive = false;
@@ -51,6 +55,7 @@ public class Damageable : MonoBehaviour
             }
         }
     }
+
 
     [SerializeField]
     private bool _isAlive = true;
