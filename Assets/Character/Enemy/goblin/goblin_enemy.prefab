@@ -445,7 +445,6 @@ MonoBehaviour:
   cliffDetectionZone: {fileID: 4879382789086989193}
   playerDetectionZone: {fileID: 5697670702276808097}
   _hasTarget: 0
-  isBoss: 1
 --- !u!114 &6101586625431631998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -460,17 +459,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageableHit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2570648760888226728}
+        m_TargetAssemblyTypeName: goblin, Assembly-CSharp
+        m_MethodName: OnHit
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   healthBar: {fileID: 0}
+  enemyHealthBar: {fileID: 0}
   _maxHealth: 100
   _health: 100
   _isAlive: 1
   isInvincible: 0
-  dropItems: []
+  dropItems:
+  - {fileID: 2310241732181301145, guid: b1dcf89e3e4813b47b67251ef7279d36, type: 3}
+  - {fileID: 8155243180874549231, guid: 71a472ea518af3743a3cf1c5388b9a12, type: 3}
+  - {fileID: 2858560521767839258, guid: 6d4dc7ff84a8a6842bd25012881df745, type: 3}
   dropWeights:
-  - 0.6
-  - 0.3
-  - 0.1
+  - 0.68
+  - 0.36
+  - 0.17
   invincibilityTime: 0.25
 --- !u!1 &5521497242951223902
 GameObject:
@@ -537,7 +552,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.19208786, y: 0.15815611}
+  m_Offset: {x: 0.020276576, y: 0.19230679}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -548,7 +563,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6158243, y: 0.68355215}
+  m_Size: {x: 1.0449915, y: 0.7518535}
   m_EdgeRadius: 0
 --- !u!114 &5697670702276808097
 MonoBehaviour:
