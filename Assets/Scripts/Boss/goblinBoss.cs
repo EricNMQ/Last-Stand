@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,6 +11,11 @@ public class goblinboss : MonoBehaviour
     public DetectionZone attackZone;
     public DetectionZone cliffDetectionZone;
     public DetectionZone playerDetectionZone;
+    public GameObject bombPrefab;
+    public Transform throwPoint;
+
+
+    public DetectionZone bombDetectionZone;
 
 
     Rigidbody2D rb;
@@ -73,6 +78,14 @@ public class goblinboss : MonoBehaviour
         }
     }
 
+    public bool throwbomb
+    {
+        get
+        {
+            return animator.GetBool(AnimationStrings.throwbomb);
+        }
+    }
+
     public void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -87,6 +100,26 @@ public class goblinboss : MonoBehaviour
         {
             cooldown -= Time.deltaTime;
         }
+
+        // ----------- BOMB THROWING ZONE -------------
+        if (bombDetectionZone.DetectedColliders.Count > 0 && cooldown <= 0f)
+        {
+            Collider2D targetCollider = bombDetectionZone.DetectedColliders[0];
+            GameObject targetObject = targetCollider.gameObject;
+            Damageable target = targetObject.GetComponent<Damageable>();
+
+            if (target != null && target.IsAlive)
+            {
+                Debug.Log("Đủ điều kiện ném bomb");
+
+                HasTarget = true;
+                
+                
+                
+            }
+        }
+
+
 
         if (playerDetectionZone.DetectedColliders.Count > 0)
         {
@@ -185,5 +218,17 @@ public class goblinboss : MonoBehaviour
         return !damageable.IsAlive;
     }
 
+    
+
+
+
+    public void ThrowBomb()
+    {
+        if (bombPrefab != null && throwPoint != null)
+        {
+            Instantiate(bombPrefab, throwPoint.position, Quaternion.identity);
+            Debug.Log("Boss ném bomb!");
+        }
+    }
 
 }

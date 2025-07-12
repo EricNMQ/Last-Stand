@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "A:\\game github\\phong\\Last-Stand\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|A:\\game github\\phong\\Last-Stand\\Assets\\Scripts\\AnimationStrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\AnimationStrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|A:\\game github\\phong\\Last-Stand\\Assets\\Scripts\\ExitTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ExitTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,11 +33,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "AnimationStrings.cs",
+              "DocumentMoniker": "A:\\game github\\phong\\Last-Stand\\Assets\\Scripts\\AnimationStrings.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AnimationStrings.cs",
+              "ToolTip": "A:\\game github\\phong\\Last-Stand\\Assets\\Scripts\\AnimationStrings.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AnimationStrings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T08:31:16.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "goblinBoss.cs",
               "DocumentMoniker": "A:\\game github\\phong\\Last-Stand\\Assets\\Scripts\\Boss\\goblinBoss.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Boss\\goblinBoss.cs",
@@ -41,12 +58,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Boss\\goblinBoss.cs",
               "ViewState": "AgIAAKIAAAAAAAAAAAAAALoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T21:06:29.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T21:06:29.018Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ExitTrigger.cs",
               "DocumentMoniker": "A:\\game github\\phong\\Last-Stand\\Assets\\Scripts\\ExitTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ExitTrigger.cs",
@@ -59,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TeleportDoor.cs",
               "DocumentMoniker": "A:\\game github\\phong\\Last-Stand\\Assets\\Scripts\\TeleportDoor.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TeleportDoor.cs",
@@ -67,12 +83,11 @@
               "RelativeToolTip": "Assets\\Scripts\\TeleportDoor.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T20:57:08.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T20:57:08.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "HealthPickup.cs",
               "DocumentMoniker": "A:\\game github\\phong\\Last-Stand\\Assets\\Scripts\\Items\\HealthPickup.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Items\\HealthPickup.cs",
@@ -80,12 +95,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Items\\HealthPickup.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T20:22:26.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T20:22:26.131Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PortalTeleport.cs",
               "DocumentMoniker": "C:\\Users\\Phong rickeypen\\Last-Stand\\Assets\\Scripts\\PortalTeleport.cs",
               "ToolTip": "C:\\Users\\Phong rickeypen\\Last-Stand\\Assets\\Scripts\\PortalTeleport.cs",
