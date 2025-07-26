@@ -23,15 +23,16 @@ public class goblinboss : MonoBehaviour
     Animator animator;
     Damageable damageable;
 
-    public enum WalkableDirection { Right, Left}
+    public enum WalkableDirection { Right, Left }
 
     private WalkableDirection _walkDirection;
     private Vector2 walkDirectionVector = Vector2.right;
 
     public WalkableDirection WalkDirection
     {
-        get {  return _walkDirection; }
-        set { 
+        get { return _walkDirection; }
+        set
+        {
             if (_walkDirection != value)
             {
                 //Direction plip
@@ -40,20 +41,25 @@ public class goblinboss : MonoBehaviour
                 if (value == WalkableDirection.Right)
                 {
                     walkDirectionVector = Vector2.right;
-                }else if (value == WalkableDirection.Left)
+                }
+                else if (value == WalkableDirection.Left)
                 {
                     walkDirectionVector = Vector2.left;
                 }
             }
-            
-            _walkDirection = value; }
+
+            _walkDirection = value;
+        }
     }
 
     public bool _hasTarget = false;
-    public bool HasTarget { get { return _hasTarget; } private set
+    public bool HasTarget
+    {
+        get { return _hasTarget; }
+        private set
         {
             _hasTarget = value;
-            animator.SetBool(AnimationStrings.hasTarget,value);
+            animator.SetBool(AnimationStrings.hasTarget, value);
         }
     }
 
@@ -94,8 +100,10 @@ public class goblinboss : MonoBehaviour
         damageable = GetComponent<Damageable>();
     }
 
+    public bool isInDialogue = false;
     void Update()
     {
+        if (isInDialogue) return;
         if (cooldown > 0)
         {
             cooldown -= Time.deltaTime;
@@ -113,9 +121,9 @@ public class goblinboss : MonoBehaviour
                 Debug.Log("Đủ điều kiện ném bomb");
 
                 HasTarget = true;
-                
-                
-                
+
+
+
             }
         }
 
@@ -142,7 +150,7 @@ public class goblinboss : MonoBehaviour
             }
         }
 
-        
+
         if (attackZone.DetectedColliders.Count > 0)
         {
             Collider2D targetCollider = attackZone.DetectedColliders[0];
@@ -181,7 +189,7 @@ public class goblinboss : MonoBehaviour
             else
                 rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, 0, walkStopRate), rb.velocity.y);
         }
-        
+
     }
 
 
@@ -190,18 +198,20 @@ public class goblinboss : MonoBehaviour
         if (WalkDirection == WalkableDirection.Right)
         {
             WalkDirection = WalkableDirection.Left;
-        }else if (WalkDirection == WalkableDirection.Left)
+        }
+        else if (WalkDirection == WalkableDirection.Left)
         {
             WalkDirection = WalkableDirection.Right;
-        }else
+        }
+        else
         {
             Debug.LogError("khong phu hop de di chuyen trai va phai");
         }
     }
-    
+
     public void OnHit(int damage, Vector2 knockback)
     {
-        
+
         rb.velocity = new Vector2(knockback.x, rb.velocity.y * knockback.y);
     }
 
@@ -218,7 +228,7 @@ public class goblinboss : MonoBehaviour
         return !damageable.IsAlive;
     }
 
-    
+
 
 
 

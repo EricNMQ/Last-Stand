@@ -6,6 +6,7 @@ using UnityEngine.Events;
 public class Damageable : MonoBehaviour
 {
     public UnityEvent<int, Vector2> damageableHit;
+    public GameObject Panel;
     Animator animator;
 
     public HealthBar healthBar;
@@ -101,17 +102,22 @@ public class Damageable : MonoBehaviour
     private float timeSinceHit = 0;
     public float invincibilityTime = 0.25f;
 
-    public bool IsAlive { 
-        get
-        {
-            return _isAlive;
-        }
+    public bool IsAlive
+    {
+        get => _isAlive;
         set
         {
             _isAlive = value;
             animator.SetBool(AnimationStrings.isAlive, value);
             Debug.Log("isAlive set " + value);
+
+            if (!_isAlive && Panel != null)
+            {
+                Panel.SetActive(true);
+            }
         }
+    
+
 }
     public bool LockVelocity
     {
@@ -160,4 +166,5 @@ public class Damageable : MonoBehaviour
         //unable to be hit
         return false;
     }
+
 }
