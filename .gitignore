@@ -1,0 +1,30 @@
+# ========== Unity generated folders ==========
+[Lưu trữ tạm thời]
+[Lớp biên dịch]
+Library/
+Temp/
+Obj/
+Build/
+Logs/
+MemoryCaptures/
+
+# ========== IDE and user settings ==========
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+
+# ========== OS Files ==========
+.DS_Store
+Thumbs.db
+
+# ========== Others ==========
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
