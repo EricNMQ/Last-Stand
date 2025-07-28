@@ -8,6 +8,12 @@ public class PlayerAttack : MonoBehaviour
     public LayerMask enemyLayers;
     public int attackDamage = 10;
 
+    [Header("Fireball Settings")]
+    [SerializeField] GameObject fireballPrefab;
+    [SerializeField] Transform firePoint;
+    [SerializeField] float fireballSpeed = 7f;
+    public AudioClip fireballSound;
+
     private AudioSource audioSource;
     private Animator animator;
 
@@ -15,10 +21,12 @@ public class PlayerAttack : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
+
         if (slashSound == null)
-        {
-            slashSound = Resources.Load<AudioClip>("TênFileTrongFolderResources");
-        }
+            slashSound = Resources.Load<AudioClip>("SlashSound");
+
+        if (fireballSound == null)
+            fireballSound = Resources.Load<AudioClip>("FireballSound");
     }
 
     void Update()
@@ -26,6 +34,11 @@ public class PlayerAttack : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             Attack();
+        }
+
+        if (Input.GetKeyDown(KeyCode.F)) // Phím F để bắn
+        {
+            ShootFireball();
         }
     }
 
@@ -41,12 +54,27 @@ public class PlayerAttack : MonoBehaviour
             Damageable target = enemy.GetComponent<Damageable>();
             if (target != null && target.IsAlive)
             {
-                target.Hit(attackDamage, transform.position); // Gọi hàm trong Damageable
+                target.Hit(attackDamage, transform.position);
                 Debug.Log("Chém trúng: " + enemy.name);
             }
         }
+    }
 
-        Debug.Log("Chém xong");
+    void ShootFireball()
+    {
+        if (fireballPrefab == null || firePoint == null) return;
+
+        GameObject fireball = Instantiate(fireballPrefab, firePoint.position, Quaternion.identity);
+        Rigidbody2D rb = fireball.GetComponent<Rigidbody2D>();
+        float direction = transform.localScale.x;
+        rb.velocity = new Vector2(direction * fireballSpeed, 0f);
+
+        if (audioSource != null && fireballSound != null)
+        {
+            audioSource.PlayOneShot(fireballSound);
+        }
+
+        animator.SetTrigger("Attack"); // hoặc tạo thêm animation Fire
     }
 
     void OnDrawGizmosSelected()

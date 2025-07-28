@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "D:\\1\\Last-Stand\\Last-Stand\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|D:\\1\\Last-Stand\\Last-Stand\\assets\\scripts\\ui\\dialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\dialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|D:\\1\\Last-Stand\\Last-Stand\\assets\\scripts\\ui\\throw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\throw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|d:\\1\\last-stand\\last-stand\\assets\\scripts\\ui\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|D:\\1\\Last-Stand\\Last-Stand\\assets\\scripts\\ui\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|d:\\1\\last-stand\\last-stand\\assets\\scripts\\boss\\goblinboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|D:\\1\\Last-Stand\\Last-Stand\\assets\\scripts\\character\\damageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\damageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|D:\\1\\Last-Stand\\Last-Stand\\assets\\scripts\\ui\\eplostion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\eplostion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|D:\\1\\Last-Stand\\Last-Stand\\assets\\scripts\\boss\\goblinboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boss\\goblinboss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|D:\\1\\Last-Stand\\Last-Stand\\assets\\scripts\\ui\\bosstrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\bosstrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|D:\\1\\Last-Stand\\Last-Stand\\assets\\ui\\failling block.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|solutionrelative:assets\\ui\\failling block.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|D:\\1\\Last-Stand\\Last-Stand\\assets\\scripts\\ui\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|D:\\1\\Last-Stand\\Last-Stand\\assets\\scripts\\ui\\dialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\dialoguemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|D:\\1\\Last-Stand\\Last-Stand\\assets\\scripts\\ui\\playergroundcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,19 +47,11 @@
       "RelativeMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|D:\\1\\Last-Stand\\Last-Stand\\assets\\scripts\\ui\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\playerattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Game\\Last-Stand\\Assets\\Scripts\\UI\\DialogueTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|D:\\1\\Last-Stand\\Last-Stand\\assets\\scripts\\ui\\win.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\win.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|D:\\1\\Last-Stand\\Last-Stand\\assets\\scripts\\character\\damageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\damageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|D:\\1\\Last-Stand\\Last-Stand\\assets\\scripts\\ui\\playerhealthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -48,10 +60,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|D:\\1\\Last-Stand\\Last-Stand\\assets\\scripts\\ui\\pause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\pause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|D:\\1\\Last-Stand\\Last-Stand\\assets\\scripts\\ui\\fallingblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\fallingblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F17A4446-3914-781E-25C0-53C21767B6C3}|Assembly-CSharp.csproj|D:\\1\\Last-Stand\\Last-Stand\\assets\\scripts\\ui\\enemyhealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,6 +110,10 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Game\\Last-Stand\\Assets\\Scripts\\UI\\Home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\1\\Last-Stand\\Last-Stand\\assets\\scripts\\ui\\fallingblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\ui\\fallingblock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -111,7 +123,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -120,31 +132,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GameState.cs",
-              "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\GameState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\GameState.cs",
-              "ToolTip": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\GameState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\GameState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Title": "PlayerAttack.cs",
+              "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\PlayerAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\PlayerAttack.cs",
+              "ToolTip": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\PlayerAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\PlayerAttack.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwFMAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T02:05:04.324Z",
+              "WhenOpened": "2025-07-19T22:43:43.443Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BossTrigger.cs",
-              "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\BossTrigger.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\BossTrigger.cs",
-              "ToolTip": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\BossTrigger.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\BossTrigger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Throw.cs",
+              "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\Throw.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Throw.cs",
+              "ToolTip": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\Throw.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Throw.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T01:57:10.818Z"
+              "WhenOpened": "2025-07-27T20:15:17.891Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "DialogueManager.cs",
               "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\DialogueManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\DialogueManager.cs",
@@ -152,12 +165,11 @@
               "RelativeToolTip": "Assets\\Scripts\\UI\\DialogueManager.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAYwCUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T14:08:49.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-24T14:08:49.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "goblinBoss.cs",
               "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\Boss\\goblinBoss.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Boss\\goblinBoss.cs",
@@ -170,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "PlayerGroundCheck.cs",
               "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\PlayerGroundCheck.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\PlayerGroundCheck.cs",
@@ -182,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\Character\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\PlayerController.cs",
@@ -194,7 +206,69 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 3,
+              "Title": "Eplostion.cs",
+              "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\Eplostion.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Eplostion.cs",
+              "ToolTip": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\Eplostion.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\Eplostion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T20:24:16.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Damageable.cs",
+              "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\Character\\Damageable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Damageable.cs",
+              "ToolTip": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\Character\\Damageable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Character\\Damageable.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAowKIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T21:01:14.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BossTrigger.cs",
+              "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\BossTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\BossTrigger.cs",
+              "ToolTip": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\BossTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\BossTrigger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T01:57:10.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Failling Block.cs",
+              "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\UI\\Failling Block.cs",
+              "RelativeDocumentMoniker": "Assets\\UI\\Failling Block.cs",
+              "ToolTip": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\UI\\Failling Block.cs",
+              "RelativeToolTip": "Assets\\UI\\Failling Block.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T18:04:35.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameState.cs",
+              "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\GameState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\GameState.cs",
+              "ToolTip": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\GameState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\GameState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T02:05:04.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Enemy.cs",
               "DocumentMoniker": "D:\\Game\\Last-Stand\\Assets\\Scripts\\UI\\Enemy.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Game\\Last-Stand\\Assets\\Scripts\\UI\\Enemy.cs",
@@ -205,19 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlayerAttack.cs",
-              "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\PlayerAttack.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\PlayerAttack.cs",
-              "ToolTip": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\PlayerAttack.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\PlayerAttack.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T22:43:43.443Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "DialogueTrigger.cs",
               "DocumentMoniker": "D:\\Game\\Last-Stand\\Assets\\Scripts\\UI\\DialogueTrigger.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Game\\Last-Stand\\Assets\\Scripts\\UI\\DialogueTrigger.cs",
@@ -229,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "EnemyHealthBar.cs",
               "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\EnemyHealthBar.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\EnemyHealthBar.cs",
@@ -241,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "win.cs",
               "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\win.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\win.cs",
@@ -253,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 28,
               "Title": "FallingBlock.cs",
               "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\FallingBlock.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\FallingBlock.cs",
@@ -265,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Pause.cs",
               "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\Pause.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Pause.cs",
@@ -277,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "exit.cs",
               "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\exit.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\exit.cs",
@@ -289,19 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Damageable.cs",
-              "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\Character\\Damageable.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Character\\Damageable.cs",
-              "ToolTip": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\Character\\Damageable.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Character\\Damageable.cs",
-              "ViewState": "AgIAAKAAAAAAAAAAAADwv6oAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T21:01:14.872Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "PlayerHealthManager.cs",
               "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\PlayerHealthManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\PlayerHealthManager.cs",
@@ -313,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "HealthBar.cs",
               "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\HealthBar.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\HealthBar.cs",
@@ -325,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Restart.cs",
               "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\Restart.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Restart.cs",
@@ -337,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Home.cs",
               "DocumentMoniker": "D:\\Game\\Last-Stand\\Assets\\Scripts\\UI\\Home.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Game\\Last-Stand\\Assets\\Scripts\\UI\\Home.cs",
@@ -349,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "TeleportDoor.cs",
               "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\Enviroment\\TeleportDoor.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enviroment\\TeleportDoor.cs",
@@ -361,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "GameUIManager.cs",
               "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\UI\\GameUIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\GameUIManager.cs",
@@ -373,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Bomb.cs",
               "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\Enemy\\Bomb.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Bomb.cs",
@@ -385,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "GoblinBombThrower.cs",
               "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\Enemy\\GoblinBombThrower.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\GoblinBombThrower.cs",
@@ -397,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "BombExplosionDamage.cs",
               "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\Enemy\\BombExplosionDamage.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\BombExplosionDamage.cs",
@@ -409,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "goblin.cs",
               "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\Enemy\\goblin.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\goblin.cs",
@@ -421,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "BombExplode.cs",
               "DocumentMoniker": "D:\\1\\Last-Stand\\Last-Stand\\Assets\\Scripts\\Enemy\\BombExplode.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\BombExplode.cs",
